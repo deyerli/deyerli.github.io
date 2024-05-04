@@ -34,24 +34,3 @@ footer {
   color: #fff;
 }
 
-.logo-container {
-  position: absolute;
-  left: 0;
-  animation: moveLogo 2s forwards; /* Apply animation */
-}
-
-@keyframes moveLogo {
-  from {
-      left: 0; /* Start from the left side */
-  }
-  to {
-      left: 50%; /* Move to the center horizontally */
-      transform: translateX(-50%); /* Adjust to center the logo */
-  }
-}
-
-.logoNE {
-  width: 15%;
-  height: 15%;
-  transition: transform 0.5s ease; /* Smooth transition if needed */
-}
