@@ -31,12 +31,9 @@
   width: 100px !important; }
 
   .button-container {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .button-container:hover {
@@ -232,6 +229,37 @@
 .bootstrap-switch-on .bootstrap-switch-handle-off {
   opacity: 0; }
 
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.btn-round {
+    border-radius: 25px;
+}
+
+.btn-lg {
+    font-size: 20px;
+}
+
+.btn-icon {
+    padding: 10px;
+}
+
+.fa {
+    font-size: 24px;
+    vertical-align: middle;
+}
 /*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
