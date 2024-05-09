@@ -30,6 +30,19 @@
   transform: translate3d(0, 0, 0);
   width: 100px !important; }
 
+  .button-container {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-container:hover {
+    background-color: #0056b3;
+}
+
 .bootstrap-switch .bootstrap-switch-handle-on,
 .bootstrap-switch .bootstrap-switch-handle-off,
 .bootstrap-switch .bootstrap-switch-label {
