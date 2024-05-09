@@ -4563,9 +4563,18 @@ button.list-group-item-dark.active {
 
 button.close {
     padding: 0;
-    background: 0 0;
-    border: 0;
-    -webkit-appearance: none
+    background: none;
+    border: none;
+    outline: none; /* Remove outline when button is focused */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: inherit; /* Use the parent element's text color */
+    font-size: inherit; /* Use the parent element's font size */
+}
+
+/* Optional: Add hover and focus styles */
+button.close:hover,
+button.close:focus {
+    text-decoration: underline; /* Example hover/focus effect */
 }
 
 .modal-open {
