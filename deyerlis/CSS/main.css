@@ -2216,7 +2216,9 @@ textarea {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  color:#003399;
+ }
 
 small {
   font-size: 60%; }
@@ -2224,7 +2226,7 @@ small {
 a {
   color: #378C3F; }
   a:hover, a:focus {
-    color: #378C3F; }
+    color: #3e378c; }
 
 h1, .h1 {
   font-size: 3.5em;
