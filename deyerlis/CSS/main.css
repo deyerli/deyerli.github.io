@@ -5054,6 +5054,10 @@ Created using IcoMoon - icomoon.io
 .gallery .cc-porfolio-image figure p {
   margin: 0; }
 
+.gallery .h4{
+  color: #003399;
+}
+
 .gallery figure.cc-effect figcaption::before,
 .gallery figure.cc-effect figcaption::after {
   position: absolute;
