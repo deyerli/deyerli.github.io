@@ -5063,6 +5063,7 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect figcaption::before,
 .gallery figure.cc-effect figcaption::after {
   position: absolute;
+  background-color: #2c2c2c;
   content: '';
   opacity: 0; }
 
@@ -5123,7 +5124,7 @@ Created using IcoMoon - icomoon.io
   transform: scale(1); }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5); }
+  background: rgba(0, 0, 0, 0.5); }
 
 .gallery figure.cc-effect:hover .h4,
 .gallery figure.cc-effect:hover p,
