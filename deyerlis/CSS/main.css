@@ -2221,8 +2221,8 @@ h1, h2, h3, h4, h5, h6{
  }
 
 p.parraf {
-  color:#000;
-  background: #999;
+  color:#CCC;
+  /* background: #999; */
   opacity: 1;
 }
 
@@ -5033,6 +5033,7 @@ Created using IcoMoon - icomoon.io
 /* Images Gallery Style*/
 .gallery .cc-porfolio-image figure {
   position: relative;
+  background:#378C3F;
   overflow: hidden;
   text-align: center; }
 
@@ -5040,11 +5041,13 @@ Created using IcoMoon - icomoon.io
   position: relative;
   display: block;
   max-width: 100%;
+
   opacity: 1; }
 
 .gallery .cc-porfolio-image figure figcaption {
   position: absolute;
   color: #fff;
+  background:#378C3F;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
