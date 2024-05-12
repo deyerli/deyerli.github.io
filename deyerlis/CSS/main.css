@@ -2271,7 +2271,9 @@ h6, .h6 {
   text-transform: uppercase; }
 
 p {
-  line-height: 1.61em; }
+  line-height: 1.61em;
+  color:#00669c
+}
   .description p, p.description {
     font-size: 1.14em; }
 
