@@ -5090,6 +5090,10 @@ Created using IcoMoon - icomoon.io
     .gallery figure.cc-effect .h4 {
       font-size: 14px; } }
 
+.h4 p {
+  color: #33813a;
+}
+
 .gallery figcaption .container {
   position: absolute;
   width: 100%;

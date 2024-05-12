@@ -320,6 +320,7 @@ select {
 [type=submit],
 button,
 html [type=button] {
+    appearance: none;
     -webkit-appearance: button
 }
 
@@ -341,6 +342,7 @@ input[type=date],
 input[type=datetime-local],
 input[type=month],
 input[type=time] {
+    appearance: none;
     -webkit-appearance: listbox
 }
 
@@ -379,6 +381,7 @@ progress {
 
 [type=search] {
     outline-offset: -2px;
+    appearance: none;
     -webkit-appearance: none
 }
 
