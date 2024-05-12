@@ -2220,8 +2220,9 @@ h1, h2, h3, h4, h5, h6{
   color:#003399;
  }
 
-.parraf {
+p.parraf {
   color:#1da1f2;
+  background: #999;
   opacity: 1;
 }
 
@@ -5060,7 +5061,7 @@ Created using IcoMoon - icomoon.io
   text-indent: 200%;
   white-space: nowrap;
   font-size: 0;
-  opacity: 0; }
+  opacity: 1; }
 
 .gallery .cc-porfolio-image figure .h4,
 .gallery .cc-porfolio-image figure p {
