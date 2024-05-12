@@ -2220,12 +2220,6 @@ h1, h2, h3, h4, h5, h6{
   color:#003399;
  }
 
-p.parraf {
-  color:#CCC;
-  /* background: #999; */
-  opacity: 100;
-}
-
 
 small {
   font-size: 60%; }
@@ -2275,9 +2269,13 @@ h6, .h6 {
 
 p {
   line-height: 1.61em;
-  color:#00669c;
+  color:#0d009c;
   opacity: 1;
 
+}
+
+p.parraf {
+  color: #FFF;
 }
   .description p, p.description {
     font-size: 1.14em; }
@@ -5119,7 +5117,7 @@ Created using IcoMoon - icomoon.io
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: transform 0.35s;
-  opacity: 0; }
+  opacity: 100; }
 
 .gallery figure.cc-effect img,
 .gallery figure.cc-effect .h4 {
